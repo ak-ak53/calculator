@@ -29,5 +29,11 @@ else if(operator==="-"){
     return sub(numb1,numb2)
 }
 }
+ 
+for(let i =0;i<20;i++){
+const pad=document.querySelector(".pad")
+const buttons=document.createElement("div")
+buttons.className="buttons"
+pad.appendChild(buttons)
+}
 
-console.log(operate(2,3,"+"))
